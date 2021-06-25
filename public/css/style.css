@@ -7,19 +7,21 @@ body {
   /* min-height: 100vh; */
 }
 .headerTop {
-  background-color: #92badd;
+  background-color: white;
 
   border-bottom: 1px solid #386ea5;
 }
 /*#495159 border*/
 .navbar {
-  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  background-color: #386ea5;
 }
 .navbarImg {
   height: 180px;
   margin-top: -40px;
   margin-bottom: -50px;
-  width: 50%;
+  margin-left: 500px;
 }
 
 .navbar-nav {
@@ -248,7 +250,7 @@ h2 {
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
-  background: #687e71;
+  background: #386ea5;
   padding: 0px;
   width: 90%;
   max-width: 450px;
@@ -256,12 +258,14 @@ h2 {
   -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
+  border-radius: -20%;
 }
 
 #formFooter {
-  background-color: #232f3e;
-  border-top: 1px solid #dce8f1;
+  background-color: #386ea5;
+  /* border-top: 1px solid #dce8f1; */
   padding: 25px;
+  color: #E0802E;
   text-align: center;
   -webkit-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
@@ -269,8 +273,8 @@ h2 {
 
 /* TABS */
 
-h2.inactive {
-  color: #cccccc;
+h1.inactive {
+  color: #E0802E;
 }
 
 h2.active {
@@ -355,6 +359,9 @@ input[type="text"]:placeholder {
   color: #cccccc;
 }
 
+.wrapper .fadeInDown{
+  background-color: white;;
+}
 /* ANIMATIONS */
 
 /* Simple CSS3 Fade-in-down Animation */
@@ -444,18 +451,21 @@ input[type="text"]:placeholder {
   -webkit-animation-delay: 0.6s;
   -moz-animation-delay: 0.6s;
   animation-delay: 0.6s;
+  border-radius: 25px;
 }
 
 .fadeIn.third {
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
   animation-delay: 0.8s;
+  border-radius: 25px;
 }
 
 .fadeIn.fourth {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
+  border-radius: 25px;
 }
 
 /* Simple CSS3 Fade-in Animation */
@@ -475,6 +485,19 @@ input[type="text"]:placeholder {
 
 .underlineHover:hover {
   color: #0d0d0d;
+}
+.right{
+  margin-left: 50px;
+}
+
+.right1{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.payment
+{
+  border-radius: 25px;
 }
 
 .underlineHover:hover:after {

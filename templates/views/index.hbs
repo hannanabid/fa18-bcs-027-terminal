@@ -8,18 +8,24 @@
     {{>navbar}}
     <div class="wrapper">
       <div class="container">
-        <div class="row g-1 allProducts">
-          {{#each matches as |match|}}
-          <div class="col-md-3">
-              <div class="card p-3">
-                <div class="product-details">
-                  <span class="font-weight-bold d-block">Teams: {{match.team1}} VS {{match.team2}}</span>
-                  <span class="font-weight-bold d-block">City: {{match.city}}</span>
-                  <span class="font-weight-bold d-block">Date: {{match.date}}</span>
-                </div>
-              </div>
+        <div class="row">
+           <div class="col-md-5">
+              <img src="./images/left.PNG" alt="">   
             </div>
-            {{/each}}
+            <div class="col-md-6 right">
+              <img src="./images/right.PNG" alt="">
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-5">
+              <img src="./images/left1.PNG" alt="">   
+            </div>
+            <div class="col-md-6 right1">
+              <img src="./images/right1.PNG" alt="">
+            </div>
+        </div>
+
+       
           </div>
       </div>
     </div>

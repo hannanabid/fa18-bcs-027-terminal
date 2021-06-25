@@ -13,16 +13,14 @@
         <!-- Tabs Titles -->
 
         <!-- Icon -->
-        <div class="fadeIn first">
-          <img class="loginFormImage" src="./images/logo.png" />
-        </div>
+        <
         {{#if messages.error}}
           <span class="registerSpan"><strong>{{messages.error}}</strong></span><br>
         {{/if}}
         <h2>Add a New Match</h2>
         <!-- Login Form -->
         <form action="/api/matches" method="POST" >
-           <select id="payment" name="team1">
+           <select id="payment" style="border-radius: 25px;" name="team1">
             <option value="Quetta Gladiators">Quetta Gladiators</option>
             <option value="Peshawar Zalmi">Peshawar Zalmi</option>
             <option value="Lahore Qalandars">Lahore Qalandars</option>
@@ -30,7 +28,7 @@
             <option value="Multan Sultans">Multan Sultans</option>
             <option value="Islamabad United">Islamabad United</option>
           </select>
-           <select id="payment" name="team2">
+           <select id="payment" style="border-radius: 25px;" name="team2">
             <option value="Quetta Gladiators">Quetta Gladiators</option>
             <option value="Peshawar Zalmi">Peshawar Zalmi</option>
             <option value="Lahore Qalandars">Lahore Qalandars</option>
@@ -46,7 +44,7 @@
             placeholder="City"
           />
           <input
-            type="text"
+            type="date"
             id="tags"
             class="fadeIn third"
             name="date"

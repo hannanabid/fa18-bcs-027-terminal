@@ -10,9 +10,9 @@
       <div class="container">
         <div class="row g-1 allProducts">
           {{#each matches as |match|}}
-          <div class="col-md-3">
-              <div class="card p-3">
-                <div class="product-details">
+          <div class="col-md-5" style="margin: 10px;">
+              <div class="card p-3" style="border: 5px solid #E0802E;">
+                <div class="product-details" style="background-color:antiquewhite" >
                   <span class="font-weight-bold d-block">Teams: {{match.team1}} VS {{match.team2}}</span>
                   <span class="font-weight-bold d-block">City: {{match.city}}</span>
                   <span class="font-weight-bold d-block">Date: {{match.date}}</span>
